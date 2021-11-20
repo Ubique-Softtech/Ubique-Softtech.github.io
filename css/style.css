@@ -1729,6 +1729,12 @@ div#preloader {
   margin-bottom: 40px;
 }
 
+.gforms {
+  display: none;
+  width:640px;
+  height:700px;
+}
+
 #google-map {
   height: 370px;
   margin-bottom: 20px;

@@ -1,6 +1,16 @@
 (function($) {
   "use strict";
 
+  $("#gformbtn").click(function(){
+    if($('#gform').is(':visible')){
+      $("#gform").hide();
+      $(this).text('Get in touch');
+    } else {
+      $("#gform").show();
+      $(this).text('Hide Form');
+    }
+  });
+
   /*--------------------------
   preloader
   ---------------------------- */
