@@ -21,7 +21,7 @@
     });
   });
 
-  $("#portfolio").hide();
+  // $("#portfolio").hide();
 
   /*---------------------
    TOP Menu Stick
